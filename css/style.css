@@ -144,10 +144,13 @@ align-items:center;
 
 .headcard:hover,
 .headcard:hover .text h2,
-.headcard:hover .text p,
-.headcard:hover .icon i {
+.headcard:hover .text p,{
   color: #fff !important;
   background: #ffb606;
+}
+.headcard:hover,
+.headcard:hover .icon i {
+  color:#ffb606 !important;
 }
 
 .icon {
@@ -163,14 +166,14 @@ align-items:center;
 }
 
 .text h2 {
-  color: #ffb606;
+  color: #fff;
   font-size: 1.5rem;
   margin: 5px 0;
 }
 
 .text p {
   font-size: 1rem;
-  color: #ffb606;
+  color: #fff;
   font-weight: 500;
   margin-top: 5px;
   text-transform: uppercase;
@@ -259,6 +262,8 @@ hr {
 .author-text {
   display: flex;
   flex-direction: row;
+  align-items:center;
+  justify-content:space-between;
   font-size: 1em;
   font-weight: 500;
   color: #1a1a1a;
@@ -268,10 +273,12 @@ hr {
 
 .author-text h4 {
   margin: 0 !important;
+  font-size:1em;
 }
 
 .author-text p {
   margin: 0 !important;
+  padding-left:5px
 }
 
 .courses {
