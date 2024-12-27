@@ -777,7 +777,14 @@ ul .menu_social{padding:0px 0px 0px 0px!important;}
 .menu_social i{color:#fff;}
 .footer_copyright span{color:#a5a5a5;}
 menu{display:none;}
-
+.menu_social_item:hover i{
+  color:#ffb606;
+}
+.foot p i{
+  color:#ffb606;
+  padding-right:5px;
+  font-size:1.2em;
+}
 @media only screen and (min-width: 1110px) {
   .bar {display:none;}
   menu {
