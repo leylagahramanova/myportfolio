@@ -146,7 +146,7 @@ align-items:center;
 .headcard:hover .text h2,
 .headcard:hover .text p {
   color: #fff !important;
-  background: #ffb606 !important;
+  background: #ffb606 !important;  
 }
 
 .headcard:hover .icon i {
