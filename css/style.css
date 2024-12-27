@@ -140,19 +140,19 @@ align-items:center;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
-  color: #ffb606;
 }
 
 .headcard:hover,
 .headcard:hover .text h2,
-.headcard:hover .text p,{
+.headcard:hover .text p {
   color: #fff !important;
-  background: #ffb606!important;
+  background: #ffb606 !important;
 }
-.headcard:hover,
+
 .headcard:hover .icon i {
-  color:#ffb606 !important;
+  color: #fff !important;
 }
+
 
 .icon {
   font-size: 2rem;
